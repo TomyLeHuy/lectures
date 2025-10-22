@@ -52,6 +52,11 @@ git merge development
 # 4. --- IMPORTANT ---
 # Resolve any merge conflicts locally now!
 # Once resolved, commit the merge.
+
+# 5.  Push the merged changes to your feature branch
+git add .
+git commit -m "Your commit message"
+git push feature/your-feature-name
 ```
 
 ### 3. Merge Your Feature into development (Merge-Up)
